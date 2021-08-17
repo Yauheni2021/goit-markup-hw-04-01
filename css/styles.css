@@ -108,10 +108,23 @@ body {
 
 .envelope {
   fill: var(--primary-text-color);
+  margin-right: 10px;
+}
+
+.envelope:hover,
+.envelope:focus {
+  fill: var(--accent-color);
 }
 
 .smartphone {
   fill: var(--primary-text-color);
+  margin-right: 10px;
+  top: 32px;
+}
+
+.smartphone:hover,
+.smartphone:focus {
+  fill: var(--accent-color);
 }
 
 .header-link:focus,
@@ -171,7 +184,13 @@ body {
 
 .contacts-list {
   display: flex;
+
   margin-left: auto;
+}
+
+.item {
+  justify-content: center;
+  text-align: center;
 }
 
 .contacts-list .item + .item {
@@ -234,6 +253,42 @@ body {
   margin: 0;
   list-style: none;
 }
+
+.feature-antenna {
+  display: flex;
+  width: 270px;
+  background-color: var(--bg-team-color);
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+.feature-clock {
+  display: flex;
+  width: 270px;
+  background-color: var(--bg-team-color);
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.feature-diagram {
+  display: flex;
+  width: 270px;
+  background-color: var(--bg-team-color);
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.feature-astronaut {
+  display: flex;
+  width: 270px;
+  background-color: var(--bg-team-color);
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 .feature-list {
   display: flex;
   justify-content: center;
