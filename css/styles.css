@@ -337,7 +337,7 @@ body {
   color: var(--primary-text-color);
 }
 .text:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 /* Чем мы занимаемся? */
 .section-subtitle {
@@ -381,6 +381,12 @@ body {
   margin-right: 30px;
 }
 
+.social-icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .image {
   display: block;
   max-width: 100%;
@@ -407,6 +413,7 @@ body {
   line-height: 1.18em;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 15px;
 }
 .section-content {
   padding-top: 30px;
